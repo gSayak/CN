@@ -1,0 +1,7 @@
+create or replace view v2 
+as select 
+roll, name
+from student
+where marks>50
+
+
